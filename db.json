@@ -1,0 +1,608 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "name": "Costa Bella",
+      "location": "Rosarito, Mexico",
+      "image": "/images/costabella/costabellaview.webp",
+      "available": true,
+      "summary": {
+        "en": "A beautiful condo in a private community by the ocean.",
+        "es": "Un hermoso condominio en una comunidad privada junto al océano."
+      },
+      "description": {
+        "en": "Escape to this stunning oceanfront condo featuring breathtaking Pacific Ocean views. Located in the exclusive Costa Bella community, this luxury 2-bedroom retreat offers the perfect blend of modern comfort and coastal charm. Wake up to the sound of waves and enjoy spectacular sunsets from your private balcony.",
+        "es": "Escápate a este impresionante condominio frente al océano con vistas espectaculares del Océano Pacífico. Ubicado en la exclusiva comunidad Costa Bella, este lujoso refugio de 2 habitaciones ofrece la combinación perfecta de comodidad moderna y encanto costero. Despierta con el sonido de las olas y disfruta de espectaculares atardeceres desde tu balcón privado."
+      },
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "maxGuests": 6,
+      "pricePerNight": 180,
+      "minimumStay": 2,
+      "amenities": {
+        "en": ["Ocean View", "Private Pool", "High-Speed WiFi", "Secure Parking", "Clubhouse", "Kitchen", "Balcony", "24/7 Security"],
+        "es": ["Vista al Océano", "Piscina Privada", "WiFi de Alta Velocidad", "Estacionamiento Seguro", "Casa Club", "Cocina", "Balcón", "Seguridad 24/7"]
+      },
+      "houseRules": {
+        "en": ["No smoking inside", "No pets allowed", "Quiet hours: 10 PM - 8 AM", "Maximum 6 guests", "No parties or events"],
+        "es": ["No fumar adentro", "No se permiten mascotas", "Horas de silencio: 10 PM - 8 AM", "Máximo 6 huéspedes", "No se permiten fiestas o eventos"]
+      },
+      "features": {
+        "en": ["Oceanfront location", "Gated community", "Modern furnishings", "Full kitchen"],
+        "es": ["Ubicación frente al océano", "Comunidad cerrada", "Mobiliario moderno", "Cocina completa"]
+      },
+      "checkIn": "3:00 PM",
+      "checkOut": "11:00 AM",
+      "coordinates": {
+        "lat": 32.3668,
+        "lng": -117.0417
+      },
+      "blackoutDates": [
+        "2025-08-15", "2025-08-16", "2025-08-17",
+        "2025-09-05", "2025-09-06",
+        "2025-10-25", "2025-10-26", "2025-10-27", "2025-10-28"
+      ],
+      "photos": [
+        {
+          "id": 1,
+          "src": "/images/exterior.webp",
+          "alt": "Costa Bella exterior view",
+          "category": "exterior",
+          "title": {
+            "en": "Building Exterior",
+            "es": "Exterior del Edificio"
+          }
+        },
+        {
+          "id": 2,
+          "src": "/images/costabellaview.webp",
+          "alt": "Ocean view from Costa Bella",
+          "category": "view",
+          "title": {
+            "en": "Panoramic Ocean View",
+            "es": "Vista Panorámica del Océano"
+          }
+        },
+        {
+          "id": 3,
+          "src": "/images/costabellaview 2.webp",
+          "alt": "Another beautiful ocean view from Costa Bella",
+          "category": "view",
+          "title": {
+            "en": "Stunning Ocean Vista",
+            "es": "Vista Impresionante del Océano"
+          }
+        },
+        {
+          "id": 4,
+          "src": "/images/living room.webp",
+          "alt": "Costa Bella living room",
+          "category": "interior",
+          "title": {
+            "en": "Spacious Living Room",
+            "es": "Sala de Estar Amplia"
+          }
+        },
+        {
+          "id": 5,
+          "src": "/images/dining area.webp",
+          "alt": "Costa Bella dining area",
+          "category": "interior",
+          "title": {
+            "en": "Elegant Dining Area",
+            "es": "Área de Comedor Elegante"
+          }
+        },
+        {
+          "id": 6,
+          "src": "/images/kitchen.webp",
+          "alt": "Costa Bella kitchen",
+          "category": "kitchen",
+          "title": {
+            "en": "Modern Kitchen",
+            "es": "Cocina Moderna"
+          }
+        },
+        {
+          "id": 7,
+          "src": "/images/bedroom one.webp",
+          "alt": "Costa Bella master bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Master Bedroom",
+            "es": "Habitación Principal"
+          }
+        },
+        {
+          "id": 8,
+          "src": "/images/bedroom 2.webp",
+          "alt": "Costa Bella second bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Second Bedroom",
+            "es": "Segunda Habitación"
+          }
+        },
+        {
+          "id": 9,
+          "src": "/images/bathroom 1.webp",
+          "alt": "Costa Bella main bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Main Bathroom",
+            "es": "Baño Principal"
+          }
+        },
+        {
+          "id": 10,
+          "src": "/images/bathroom 2.webp",
+          "alt": "Costa Bella second bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Second Bathroom",
+            "es": "Segundo Baño"
+          }
+        },
+        {
+          "id": 11,
+          "src": "/images/balcony.webp",
+          "alt": "Costa Bella balcony",
+          "category": "view",
+          "title": {
+            "en": "Private Balcony",
+            "es": "Balcón Privado"
+          }
+        },
+        {
+          "id": 12,
+          "src": "/images/pool.webp",
+          "alt": "Costa Bella pool area",
+          "category": "amenity",
+          "title": {
+            "en": "Pool Area",
+            "es": "Área de Piscina"
+          }
+        },
+        {
+          "id": 13,
+          "src": "/images/jacuzzi.webp",
+          "alt": "Costa Bella jacuzzi",
+          "category": "amenity",
+          "title": {
+            "en": "Relaxing Jacuzzi",
+            "es": "Jacuzzi Relajante"
+          }
+        },
+        {
+          "id": 14,
+          "src": "/images/gym.webp",
+          "alt": "Costa Bella fitness center",
+          "category": "amenity",
+          "title": {
+            "en": "Fitness Center",
+            "es": "Centro de Fitness"
+          }
+        },
+        {
+          "id": 15,
+          "src": "/images/events room.webp",
+          "alt": "Costa Bella events room",
+          "category": "amenity",
+          "title": {
+            "en": "Events Room",
+            "es": "Sala de Eventos"
+          }
+        },
+        {
+          "id": 16,
+          "src": "/images/laundry area.webp",
+          "alt": "Costa Bella laundry area",
+          "category": "amenity",
+          "title": {
+            "en": "Laundry Area",
+            "es": "Área de Lavandería"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mision Viejo",
+      "location": "Rosarito, Mexico",
+      "image": "/images/misionviejo/exterior1.jpeg",
+      "available": false,
+      "summary": {
+        "en": "Brand new house with a beautiful ocean view.",
+        "es": "Casa nueva con una hermosa vista al océano."
+      },
+      "description": {
+        "en": "Experience luxury in this brand-new 3-bedroom house perched on the cliffs of Rosarito. This architectural masterpiece features floor-to-ceiling windows, a gourmet kitchen, and a stunning rooftop terrace with 360-degree ocean views. Perfect for families or groups seeking an unforgettable coastal getaway.",
+        "es": "Experimenta el lujo en esta nueva casa de 3 habitaciones ubicada en los acantilados de Rosarito. Esta obra maestra arquitectónica cuenta con ventanas del piso al techo, una cocina gourmet y una impresionante terraza en la azotea con vistas de 360 grados al océano. Perfecto para familias o grupos que buscan una escapada costera inolvidable."
+      },
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "maxGuests": 8,
+      "pricePerNight": 250,
+      "minimumStay": 3,
+      "amenities": {
+        "en": ["Ocean View", "Rooftop Terrace", "High-Speed WiFi", "BBQ Grill", "Full Kitchen", "Beach Access"],
+        "es": ["Vista al Océano", "Terraza en la Azotea", "WiFi de Alta Velocidad", "Parrilla BBQ", "Cocina Completa", "Acceso a la Playa"]
+      },
+      "houseRules": {
+        "en": ["No smoking inside", "No pets allowed", "Quiet hours: 10 PM - 8 AM", "Maximum 8 guests", "No parties or events"],
+        "es": ["No fumar adentro", "No se permiten mascotas", "Horas de silencio: 10 PM - 8 AM", "Máximo 8 huéspedes", "No se permiten fiestas o eventos"]
+      },
+      "features": {
+        "en": ["Modern architecture", "Fully furnished", "Outdoor dining area"],
+        "es": ["Arquitectura moderna", "Completamente amueblado", "Área de comedor al aire libre"]
+      },
+      "checkIn": "4:00 PM",
+      "checkOut": "11:00 AM",
+      "coordinates": {
+        "lat": 32.3598,
+        "lng": -117.0380
+      },
+      "blackoutDates": [
+        "2025-07-30", "2025-07-31",
+        "2025-08-20", "2025-08-21", "2025-08-22",
+        "2025-09-15", "2025-09-16", "2025-09-17", "2025-09-18"
+      ],
+      "photos": [
+        {
+          "id": 11,
+          "src": "/images/misionviejo/exterior1.jpeg",
+          "alt": "Mision Viejo house exterior",
+          "category": "exterior",
+          "title": {
+            "en": "Modern House Exterior",
+            "es": "Exterior de Casa Moderna"
+          }
+        },
+        {
+          "id": 12,
+          "src": "/images/misionviejo/exterior1.2.jpeg",
+          "alt": "Mision Viejo house exterior",
+          "category": "exterior",
+          "title": {
+            "en": "Modern House Exterior",
+            "es": "Exterior de Casa Moderna"
+          }
+        },
+        {
+          "id": 13,
+          "src": "/images/misionviejo/exterior1.3.jpeg",
+          "alt": "Mision Viejo house exterior",
+          "category": "exterior",
+          "title": {
+            "en": "Modern House Exterior",
+            "es": "Exterior de Casa Moderna"
+          }
+        },
+        {
+          "id": 14,
+          "src": "/images/misionviejo/bedroom1.1.jpeg",
+          "alt": "Mision Viejo master bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Master Bedroom",
+            "es": "Habitación Principal"
+          }
+        },
+        {
+          "id": 15,
+          "src": "/images/misionviejo/bedroom1.2.jpeg",
+          "alt": "Mision Viejo master bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Master Bedroom",
+            "es": "Habitación Principal"
+          }
+        },
+        {
+          "id": 16,
+          "src": "/images/misionviejo/bedroom2.1.webp",
+          "alt": "Mision Viejo second bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Second Bedroom",
+            "es": "Segunda Habitación"
+          }
+        },
+        {
+          "id": 17,
+          "src": "/images/misionviejo/bedroom2.2.jpeg",
+          "alt": "Mision Viejo second bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Second Bedroom",
+            "es": "Segunda Habitación"
+          }
+        },
+        {
+          "id": 18,
+          "src": "/images/misionviejo/bedroom2.3.jpeg",
+          "alt": "Mision Viejo second bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Second Bedroom",
+            "es": "Segunda Habitación"
+          }
+        },
+        {
+          "id": 19,
+          "src": "/images/misionviejo/bedroom3.1.jpeg",
+          "alt": "Mision Viejo third bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Third Bedroom",
+            "es": "Tercera Habitación"
+          }
+        },
+        {
+          "id": 20,
+          "src": "/images/misionviejo/bedroom3.2.jpeg",
+          "alt": "Mision Viejo third bedroom",
+          "category": "bedroom",
+          "title": {
+            "en": "Third Bedroom",
+            "es": "Tercera Habitación"
+          }
+        },
+        {
+          "id": 21,
+          "src": "/images/misionviejo/fullbathroom1.jpeg",
+          "alt": "Mision Viejo full bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Full Bathroom",
+            "es": "Baño Completo"
+          }
+        },
+        {
+          "id": 22,
+          "src": "/images/misionviejo/fullbathroom1.2.jpeg",
+          "alt": "Mision Viejo full bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Full Bathroom",
+            "es": "Baño Completo"
+          }
+        },
+        {
+          "id": 23,
+          "src": "/images/misionviejo/fullbathroom1.3.jpeg",
+          "alt": "Mision Viejo full bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Full Bathroom",
+            "es": "Baño Completo"
+          }
+        },
+        {
+          "id": 24,
+          "src": "/images/misionviejo/fullbathroom2.jpeg",
+          "alt": "Mision Viejo full bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Full Bathroom",
+            "es": "Baño Completo"
+          }
+        },
+        {
+          "id": 25,
+          "src": "/images/misionviejo/fullbathroom2.1.webp",
+          "alt": "Mision Viejo full bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Full Bathroom",
+            "es": "Baño Completo"
+          }
+        },
+        {
+          "id": 26,
+          "src": "/images/misionviejo/halfbathroom1.jpeg",
+          "alt": "Mision Viejo half bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Half Bathroom",
+            "es": "Medio Baño"
+          }
+        },
+        {
+          "id": 27,
+          "src": "/images/misionviejo/halfbathroom1.2.jpeg",
+          "alt": "Mision Viejo half bathroom",
+          "category": "bathroom",
+          "title": {
+            "en": "Half Bathroom",
+            "es": "Medio Baño"
+          }
+        },
+        {
+          "id": 28,
+          "src": "/images/misionviejo/fullkitchen1.webp",
+          "alt": "Mision Viejo kitchen",
+          "category": "kitchen",
+          "title": {
+            "en": "Full Kitchen",
+            "es": "Cocina Completa"
+          }
+        },
+        {
+          "id": 29,
+          "src": "/images/misionviejo/fullkitchen2.jpeg",
+          "alt": "Mision Viejo kitchen",
+          "category": "kitchen",
+          "title": {
+            "en": "Full Kitchen",
+            "es": "Cocina Completa"
+          }
+        },
+        {
+          "id": 30,
+          "src": "/images/misionviejo/fullkitchen3.webp",
+          "alt": "Mision Viejo kitchen",
+          "category": "kitchen",
+          "title": {
+            "en": "Full Kitchen",
+            "es": "Cocina Completa"
+          }
+        },
+        {
+          "id": 31,
+          "src": "/images/misionviejo/fullkitchen4.jpeg",
+          "alt": "Mision Viejo kitchen",
+          "category": "kitchen",
+          "title": {
+            "en": "Full Kitchen",
+            "es": "Cocina Completa"
+          }
+        },
+        {
+          "id": 32,
+          "src": "/images/misionviejo/fullkitchen5.jpeg",
+          "alt": "Mision Viejo kitchen",
+          "category": "kitchen",
+          "title": {
+            "en": "Full Kitchen",
+            "es": "Cocina Completa"
+          }
+        },
+        {
+          "id": 33,
+          "src": "/images/misionviejo/livingroom1.webp",
+          "alt": "Mision Viejo living room",
+          "category": "interior",
+          "title": {
+            "en": "Living Room",
+            "es": "Sala de Estar"
+          }
+        },
+        {
+          "id": 34,
+          "src": "/images/misionviejo/livingroom2.webp",
+          "alt": "Mision Viejo living room",
+          "category": "interior",
+          "title": {
+            "en": "Living Room",
+            "es": "Sala de Estar"
+          }
+        },
+        {
+          "id": 35,
+          "src": "/images/misionviejo/livingroom3.jpeg",
+          "alt": "Mision Viejo living room",
+          "category": "interior",
+          "title": {
+            "en": "Living Room",
+            "es": "Sala de Estar"
+          }
+        },
+        {
+          "id": 36,
+          "src": "/images/misionviejo/diningarea.webp",
+          "alt": "Mision Viejo dining area",
+          "category": "interior",
+          "title": {
+            "en": "Dining Area",
+            "es": "Área de Comedor"
+          }
+        },
+        {
+          "id": 37,
+          "src": "/images/misionviejo/patio1.webp",
+          "alt": "Mision Viejo patio",
+          "category": "exterior",
+          "title": {
+            "en": "Patio",
+            "es": "Patio"
+          }
+        },
+        {
+          "id": 38,
+          "src": "/images/misionviejo/patio1.2.jpeg",
+          "alt": "Mision Viejo patio",
+          "category": "exterior",
+          "title": {
+            "en": "Patio",
+            "es": "Patio"
+          }
+        },
+        {
+          "id": 39,
+          "src": "/images/misionviejo/patio1.3.jpeg",
+          "alt": "Mision Viejo patio",
+          "category": "exterior",
+          "title": {
+            "en": "Patio",
+            "es": "Patio"
+          }
+        },
+        {
+          "id": 40,
+          "src": "/images/misionviejo/patio1.4.jpeg",
+          "alt": "Mision Viejo patio",
+          "category": "exterior",
+          "title": {
+            "en": "Patio",
+            "es": "Patio"
+          }
+        },
+        {
+          "id": 41,
+          "src": "/images/misionviejo/patio1.5.jpeg",
+          "alt": "Mision Viejo patio",
+          "category": "exterior",
+          "title": {
+            "en": "Patio",
+            "es": "Patio"
+          }
+        },
+        {
+          "id": 42,
+          "src": "/images/misionviejo/rooftop1.webp",
+          "alt": "Mision Viejo rooftop",
+          "category": "exterior",
+          "title": {
+            "en": "Rooftop",
+            "es": "Azotea"
+          }
+        },
+        {
+          "id": 43,
+          "src": "/images/misionviejo/rooftop1.2.jpeg",
+          "alt": "Mision Viejo rooftop",
+          "category": "exterior",
+          "title": {
+            "en": "Rooftop",
+            "es": "Azotea"
+          }
+        },
+        {
+          "id": 44,
+          "src": "/images/misionviejo/rooftop1.3.jpeg",
+          "alt": "Mision Viejo rooftop",
+          "category": "exterior",
+          "title": {
+            "en": "Rooftop",
+            "es": "Azotea"
+          }
+        },
+        {
+          "id": 45,
+          "src": "/images/misionviejo/rooftop1.4.webp",
+          "alt": "Mision Viejo rooftop",
+          "category": "exterior",
+          "title": {
+            "en": "Rooftop",
+            "es": "Azotea"
+          }
+        }
+      ]
+    }
+  ],
+  "availability": [
+    { "date": "2025-07-10", "isAvailable": true },
+    { "date": "2025-07-11", "isAvailable": false }
+  ]
+}
