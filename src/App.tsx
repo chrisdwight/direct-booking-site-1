@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Switch, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import PropertyDetailsPage from './pages/PropertyDetailsPage';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
@@ -8,6 +8,8 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 const AppContent: React.FC = () => {
     const { t } = useLanguage();
     
+    const isLocal = typeof window !== 'undefined' && window.location.hostname === 'localhost';
+    const Router = isLocal ? BrowserRouter : HashRouter;
     return (
         <Router>
             {/* Floating Waves Background */}
