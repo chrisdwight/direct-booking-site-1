@@ -81,3 +81,19 @@ PRs welcome. Please run build and tests locally before submitting.
 ## License
 
 MIT
+
+## GitHub Pages Deployment
+
+This repo includes a deploy workflow to GitHub Pages.
+
+- Vite base path is set to `/direct-booking-site-1/` in `vite.config.ts`.
+- Build output goes to `dist/`.
+- Workflow file: `.github/workflows/deploy.yml`.
+- SPA fallback: `public/404.html` redirects deep links.
+
+### Enable Pages
+1. Push to GitHub.
+2. In GitHub repo Settings → Pages:
+   - Source: GitHub Actions
+3. On push to `master`, the site deploys to:
+   `https://<OWNER>.github.io/direct-booking-site-1/`

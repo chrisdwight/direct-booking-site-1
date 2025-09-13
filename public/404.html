@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // SPA fallback for GitHub Pages: redirect to index with path preserved
+      var segment = '/direct-booking-site-1';
+      var l = window.location;
+      var path = l.pathname.replace(segment, '');
+      var newUrl = segment + '/#' + path + l.search + l.hash;
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
