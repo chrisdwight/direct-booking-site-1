@@ -1,83 +1,83 @@
+[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+
 # Direct Booking Website
 
-This project is a React-based web application for a direct booking platform that allows users to browse rental properties, check real-time availability, and make inquiries.
+This project is a React + TypeScript app built with Vite. It includes a mock API using json-server for local data.
 
 ## Features
 
-- **Directory of Rental Properties**: Users can view a list of available rental properties.
-- **Real-Time Availability**: Each property displays its current availability status.
-- **Dedicated Property Pages**: Users can click on a property to view detailed information, including amenities and availability.
-- **Calendar Interface**: A calendar is provided for users to select available and booked dates.
-- **Contact Section**: A contact form is available for inquiries about properties.
+- Directory of rental properties with images
+- Dedicated property pages with photo gallery and amenities
+- Availability calendar and booking sidebar
+- Language support (EN/ES)
+- Mock API via json-server
 
 ## Project Structure
 
 ```
-direct-booking-site
-├── public
-│   └── index.html
-├── src
-│   ├── components
-│   │   ├── Calendar.tsx
-│   │   ├── ContactSection.tsx
-│   │   ├── PropertyAvailability.tsx
-│   │   ├── PropertyCard.tsx
-│   │   ├── PropertyList.tsx
-│   │   └── PropertyPage.tsx
-│   ├── pages
-│   │   ├── HomePage.tsx
-│   │   └── PropertyDetailsPage.tsx
-│   ├── types
-│   │   └── index.ts
+direct-booking-site-1/
+├── public/
+│   ├── index.html
+│   └── images/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── contexts/
+│   ├── types/
 │   ├── App.tsx
+│   ├── index.css
 │   └── index.tsx
+├── db.json
 ├── package.json
-├── tsconfig.json
-└── README.md
+└── vite.config.ts
 ```
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
-- npm (version 6 or higher)
+- Node.js 18
+- npm 9+
 
-### Installation
+### Install
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd direct-booking-site
-   ```
-3. Install the dependencies:
-   ```
-   npm install
-   ```
-
-### Running the Application
-
-To start the development server, run:
+```zsh
+npm install
 ```
-npm start
-```
-The application will be available at `http://localhost:3000`.
 
-### Building for Production
+### Run (dev)
 
-To create a production build, run:
+This starts Vite and json-server concurrently:
+
+```zsh
+npm run dev
 ```
+
+- Web app: http://localhost:5173
+- API: http://localhost:5000
+
+### Build
+
+```zsh
 npm run build
 ```
-This will generate an optimized build in the `build` directory.
+
+### Preview production build
+
+```zsh
+npm run preview
+```
+
+### Test
+
+```zsh
+npm test -- --run
+```
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+PRs welcome. Please run build and tests locally before submitting.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+MIT
