@@ -12,7 +12,7 @@ export const fallbackProperties: Property[] = [
       es: "Un hermoso condominio en una comunidad privada junto al océano."
     },
     description: {
-      en: "Escape to this stunning oceanfront condo featuring breathtaking Pacific Ocean views. Located in the exclusive Costa Bella community, this luxury 2-bedroom retreat offers the perfect blend of modern comfort and coastal charm. Wake up to the sound of waves and enjoy spectacular sunsets from your private balcony.",
+      en: "Escape to this stunning oceanfront condo featuring breathtaking Pacific Ocean views. Located in the exclusive Costa Bella community, this 2-bedroom retreat offers the perfect blend of modern comfort and coastal charm. Wake up to the sound of waves and enjoy spectacular sunsets from your private balcony.",
       es: "Escápate a este impresionante condominio frente al océano con vistas espectaculares del Océano Pacífico. Ubicado en la exclusiva comunidad Costa Bella, este lujoso refugio de 2 habitaciones ofrece la combinación perfecta de comodidad moderna y encanto costero. Despierta con el sonido de las olas y disfruta de espectaculares atardeceres desde tu balcón privado."
     },
     bedrooms: 2,
@@ -120,8 +120,8 @@ export const fallbackProperties: Property[] = [
       es: "Casa nueva con una hermosa vista al océano."
     },
     description: {
-      en: "Experience luxury in this brand-new 3-bedroom house perched on the cliffs of Rosarito. This architectural masterpiece features floor-to-ceiling windows, a gourmet kitchen, and a stunning rooftop terrace with 360-degree ocean views. Perfect for families or groups seeking an unforgettable coastal getaway.",
-      es: "Experimenta el lujo en esta nueva casa de 3 habitaciones ubicada en los acantilados de Rosarito. Esta obra maestra arquitectónica cuenta con ventanas del piso al techo, una cocina gourmet y una impresionante terraza en la azotea con vistas de 360 grados al océano. Perfecto para familias o grupos que buscan una escapada costera inolvidable."
+      en: "Experience luxury in this brand-new 3-bedroom house on the coast of Rosarito. This architectural masterpiece features floor-to-ceiling windows, a gourmet kitchen, and a stunning rooftop terrace with 360-degree ocean views. Perfect for families or groups seeking an unforgettable coastal getaway.",
+      es: "Experimenta el lujo en esta nueva casa de 3 habitaciones ubicada en la costade Rosarito. Esta obra maestra arquitectónica cuenta con ventanas del piso al techo, una cocina gourmet y una impresionante terraza en la azotea con vistas de 360 grados al océano. Perfecto para familias o grupos que buscan una escapada costera inolvidable."
     },
     bedrooms: 3,
     bathrooms: 3,
